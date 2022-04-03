@@ -1,0 +1,22 @@
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- Ace - https://ace.c9.io */
+.ace-tm .ace_gutter                        { background-color: var( --bs-gray-100 ); }
+.ace-tm .ace_marker-layer .ace_active-line { background-color: var( --bs-gray-100 ); }
+.ace-tm .ace_gutter-active-line            { background-color: var( --bs-gray-200 ); }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- Editor */
+.k6sde-editor-code { min-height: 78px; }
+.k6sde-editor-help { display   : grid; grid-template-rows   : repeat(  6,       3rem        );
+                                       grid-template-columns: repeat( 29, calc( 100% / 29 ) ); }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- Key */
+.k6sde-key           { grid-column          : span 2;         ; font-size    :     .5rem; line-height: 1       ;
+                       border: 1px solid var( --bs-white     ); border-radius:    .25rem; position   : relative;
+                       background-color: var( --bs-light     ); padding:  .125rem .25rem; }
+.k6sde-key:hover div { background-color: var( --bs-white     ) !important; }
+.k6sde-key:hover     { background-color: var( --bs-secondary ); color: var( --bs-white ); }
+.k6sde-key-hold      { background-color: var( --bs-secondary ); color: var( --bs-white ); opacity: .5; }
+
+.k6sde-key-bt, .k6sde-key-bs, .k6sde-key-ta, .k6sde-key-et { grid-column     : span  3; }
+.k6sde-key-bl                                              { grid-column     : span  1; }
+.k6sde-key-sp                                              { grid-column     : span 13; }
+.k6sde-key-bt, .k6sde-key-bl, .k6sde-key-br                { background-color: unset  ; }

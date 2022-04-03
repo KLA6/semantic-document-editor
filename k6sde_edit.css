@@ -1,0 +1,4 @@
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ACE - https://ace.c9.io */
+.ace-tm .ace_gutter                        { background-color: var( --bs-gray-100 ); }
+.ace-tm .ace_marker-layer .ace_active-line { background-color: var( --bs-gray-100 ); }
+.ace-tm .ace_gutter-active-line            { background-color: var( --bs-gray-200 ); }

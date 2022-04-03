@@ -1,0 +1,21 @@
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- EDIT */
+.k6sde-form-code { min-height: 78px; }
+.k6sde-form-help { display   : grid; grid-template-rows   : repeat(  6,       3rem        );
+                                     grid-template-columns: repeat( 29, calc( 100% / 29 ) ); }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- EDIT KEY */
+.k6sde-form-key           { grid-column          : span 2;         ; font-size    :     .5rem; line-height: 1       ;
+                            border: 1px solid var( --bs-white     ); border-radius:    .25rem; position   : relative;
+                            background-color: var( --bs-light     ); padding:  .125rem .25rem; }
+.k6sde-form-key:hover div { background-color: var( --bs-white     ) !important; }
+.k6sde-form-key:hover     { background-color: var( --bs-secondary ); color: var( --bs-white ); }
+.k6sde-form-key-hold      { background-color: var( --bs-secondary ); color: var( --bs-white ); opacity: .5; }
+
+.k6sde-form-key-bt, .k6sde-form-key-bs, .k6sde-form-key-ta, .k6sde-form-key-et { grid-column     : span  3; }
+.k6sde-form-key-bl                                                             { grid-column     : span  1; }
+.k6sde-form-key-sp                                                             { grid-column     : span 13; }
+.k6sde-form-key-bt, .k6sde-form-key-bl, .k6sde-form-key-br                     { background-color: unset  ; }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- EDIT POSTION */
+.k6sde-form-position-fix    { position: absolute; width: 100%; max-width : 768px; left: 0; bottom: 0; }
+.k6sde-form-position-follow { position: absolute; width: 100%; max-width : 768px; left: 0; }

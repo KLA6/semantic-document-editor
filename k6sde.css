@@ -1,0 +1,10 @@
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- HTML */
+html, body { height: 100%; }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- BUTTON */
+.k6sde-btn       { color: var( --bs-secondary ); background-color: var( --bs-light     ); }
+.k6sde-btn:hover { color: var( --bs-white     ); background-color: var( --bs-secondary ); }
+
+/* ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- NAVIGATION */
+.k6sde-nav-hori { width : 20rem; max-width : 75vw; }
+.k6sde-nav-vert { height: 20rem; max-height: 75vh; }
