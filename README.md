@@ -6,4 +6,4 @@
 This is on the development, so please do not try to use.
 
 ## Type
-- JavaScript Library for Laravel
+- JavaScript & CSS Library
